@@ -1,38 +1,5 @@
-<h1 align="center"> Flow-GRPO:<br>Training Flow Matching Models via Online RL </h1>
-<div align="center">
-  <a href='https://arxiv.org/abs/2505.05470'><img src='https://img.shields.io/badge/ArXiv-red?logo=arxiv'></a>  &nbsp;
-  <a href='https://gongyeliu.github.io/Flow-GRPO/'><img src='https://img.shields.io/badge/Visualization-green?logo=github'></a> &nbsp;
-  <a href="https://github.com/yifan123/flow_grpo"><img src="https://img.shields.io/badge/Code-9E95B7?logo=github"></a> &nbsp; 
-  <a href='https://huggingface.co/collections/jieliu/sd35m-flowgrpo-68298ec27a27af64b0654120'><img src='https://img.shields.io/badge/Model-blue?logo=huggingface'></a> &nbsp; 
-  <a href='https://huggingface.co/spaces/jieliu/SD3.5-M-Flow-GRPO'><img src='https://img.shields.io/badge/Demo-blue?logo=huggingface'></a> &nbsp;
-</div>
+<h1 align="center"> Flow-GRPO with Per-Entity Rewards: Online RL for Multi-Person Image Generation </h1>
 
-## Changelog
-
-<strong>2026-05-07</strong>
-
-* 🚀 Flow-GRPO is now supported in [verl-omni](https://github.com/verl-project/verl-omni)! This provides a verl-style training framework for Flow-GRPO users.
-
-
-<details>
-<summary><strong>Update History</strong></summary>
-
-** 2025-11-04**
-
-* 🚀 Adding **GRPO-Guard**.
-
-**2025-11-04**
-* Adding support for [Bagel-7B](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT).
-
-**2025-10-14**
-
-* Refactor FlowGRPO-Fast for compatibility with FlowGRPO, add CPS sampling and No-CFG training on SD3.
-
-**2025-08-15**
-
-* Adding support for **Qwen-Image** and **Qwen-Image-Edit**.
-
-**2025-08-15**
 
 * Thanks [Jing Wang](https://scholar.google.com.hk/citations?user=Q9Np_KQAAAAJ&hl=zh-CN) for adding **Wan2.1**. Training command
 ```bash

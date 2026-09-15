@@ -1,37 +1,6 @@
 <h1 align="center"> Flow-GRPO with Per-Entity Rewards: <br> Online RL for Multi-Person Image Generation </h1>
 
 
-* Thanks [Jing Wang](https://scholar.google.com.hk/citations?user=Q9Np_KQAAAAJ&hl=zh-CN) for adding **Wan2.1**. Training command
-```bash
-accelerate launch --config_file scripts/accelerate_configs/multi_gpu.yaml --num_processes=1 --main_process_port 29503 scripts/train_wan2_1.py --config config/grpo.py:general_ocr_wan2_1
-```
-
-**2025-08-14**
-
-* Adding reward curve of Flow-GRPO-Fast vs. Flow-GRPO. In Pickscore reward, Flow-GRPO-Fast is comparable to Flow-GRPO with only 2 steps training.
-
-
-**2025-08-04**
-
-* Adding support for **FLUX.1-Kontext-dev**. For the counting task, we use Geneval reward to detect object counts and CLIP feature similarity to ensure consistency between the original and edited images. This implementation offers a runnable pipeline, but the training set contains only 800 samples. Making Flow-GRPO truly effective for editing tasks still requires further exploration by the community.
-
-
-**2025-07-31**
-
-- Adding Flow-GRPO-Fast.
-
-**2025-07-28**
-
-- Adding support for **FLUX.1-dev**.
-- Adding support for CLIPScore as reward model.
-- Introducing `config.sample.same_latent` to control whether the same noise is reused for identical prompts, addressing [Issue #7](https://github.com/yifan123/flow_grpo/issues/7).
-
-**2025-05-15** 
-
-- 🔥We showcase image examples from three tasks and their training evolution at https://gongyeliu.github.io/Flow-GRPO. Check them out!
-- 🔥We now provide an online demo for all three tasks at https://huggingface.co/spaces/jieliu/SD3.5-M-Flow-GRPO. You're welcome to try it out!
-</details>
-
 ## 🤗 Model
 | Task    | Model |
 | -------- | -------- |

@@ -1,6 +1,6 @@
 <h1 align="center"> Flow-GRPO with Per-Entity Rewards: <br> Online RL for Multi-Person Image Generation </h1>
 
-# Training Flow Matching Models via Online RL with Per-Entity Rewards
+## Training Flow Matching Models via Online RL with Per-Entity Rewards
 
 An extension to [Flow-GRPO](https://github.com/yifan123/flow_grpo) for multi-person
 image generation. Flow-GRPO supplies the RL machinery (ODE-to-SDE conversion,

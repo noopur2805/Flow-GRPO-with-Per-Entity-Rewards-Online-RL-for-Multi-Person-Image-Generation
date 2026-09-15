@@ -1,4 +1,4 @@
-<h1 align="center"> Flow-GRPO with Per-Entity Rewards: Online RL for Multi-Person Image Generation </h1>
+<h1 align="center"> Flow-GRPO with Per-Entity Rewards: <br> Online RL for Multi-Person Image Generation </h1>
 
 
 * Thanks [Jing Wang](https://scholar.google.com.hk/citations?user=Q9Np_KQAAAAJ&hl=zh-CN) for adding **Wan2.1**. Training command
